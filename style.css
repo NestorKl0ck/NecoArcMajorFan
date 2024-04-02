@@ -6,12 +6,22 @@ body {
     background-size: 100% 100%;
   }
 .field_set{
-  border-color: darkslategray;
-  fill: darkslategray;
+  background-color: rgba(0, 0, 0, 0.438);
+  border-color: black;
+  fill: black;
+  color: white;
+  text-align: center;
     }
 .header {
   text-align: center;
-  background: transparent;
+  background: rgba(0, 0, 0, 0.774);
+  padding: 20px;
   color: white;
   font-size: 30px;
+}
+.font_white {
+  text-align: center;
+  background:rgba(0, 0, 0, 0.774);
+  color: white;
+  flex: auto;
 }
