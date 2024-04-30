@@ -25,3 +25,7 @@ body {
   color: white;
   flex: auto;
 }
+.mirror {
+  -webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+}
